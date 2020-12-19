@@ -7,7 +7,7 @@
             <form class="box">
               <!--圖示-->
               <div class="field has-text-centered">
-                <img alt="Vue logo" src="../assets/logo.png" width="167">
+                <img alt="Vue logo" src="../assets/images/logo-bis.png" width="167">
               </div>
               <!--Email-->
               <div class="field">
@@ -15,7 +15,7 @@
                 <div class="control has-icons-left">
                   <input type="email" class="input" placeholder="e.g vue@gmail.com" required>
                   <span class="icon is-small is-left">
-                    <font-awesome-icon v-bind:icon="['fas', 'envelope']" />
+                    <i class="fa fa-lock"></i>
                   </span>
                 </div>
               </div>

@@ -5,15 +5,9 @@ import store from './store';
 import router from './router';
 
 //圖示Icon
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-
-library.add(fas);
-
-Vue.component('font-awesome-icon', FontAwesomeIcon);
-
-import '../node_modules/bulma/css/bulma.css'
+import 'font-awesome/css/font-awesome.min.css';
+//樣式
+import '../node_modules/bulma/css/bulma.css';
 
 Vue.config.productionTip = false
 
