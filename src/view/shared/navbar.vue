@@ -13,7 +13,7 @@
     <div class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item">
-          <smal>Publishing at the speed of technology</smal>
+          <small>Publishing at the speed of technology</small>
         </div>
       </div>
       <div class="navbar-end">
