@@ -7,8 +7,10 @@ import action from "@/view/action";
 import singIn from "@/view/signIn";
 //儀錶板
 import dashboard from "@/view/home/dashboard";
-//書籍
+//書籍_列表
 import book_list from "@/view/book/book_list";
+//顧客_列表
+import customer_list from "@/view/customer/customer_list";
 
 
 Vue.use(VueRouter);
@@ -34,6 +36,16 @@ const router = new VueRouter({
                         {
                             //清單
                             path: "list", name: "book_list", component: book_list
+                        }
+                    ]
+                },
+                {
+                    //顧客
+                    path: "customers", component: action,
+                    children:[
+                        {
+                            //清單
+                            path: "list", name: "customer_list", component: customer_list
                         }
                     ]
                 }

@@ -21,12 +21,12 @@
         </router-link>
       </li>
       <li>
-        <a href="customers.html">
+        <router-link v-bind:to="{name: 'customer_list'}">
           <span class="icon">
             <i class="fa fa-address-book"></i>
           </span>
           Customers
-        </a>
+        </router-link>
       </li>
       <li>
         <a href="orders.html">
