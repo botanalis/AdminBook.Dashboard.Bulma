@@ -5,12 +5,12 @@
     </p>
     <ul class="menu-list">
       <li>
-        <a href="dashboard.html">
-          <span class="icon">
+        <router-link v-bind:to="{name: 'dashboard'}">
+           <span class="icon">
             <i class="fa fa-tachometer"></i>
           </span>
           Dashboard
-        </a>
+        </router-link>
       </li>
       <li>
         <router-link class="is-active" v-bind:to="{name: 'book_list'}">
