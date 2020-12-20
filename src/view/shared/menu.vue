@@ -29,12 +29,12 @@
         </router-link>
       </li>
       <li>
-        <a href="orders.html">
+        <router-link v-bind:to="{name: 'order_list'}">
           <span class="icon">
             <i class="fa fa-file-text-o"></i>
           </span>
           Orders
-        </a>
+        </router-link>
       </li>
     </ul>
   </nav>

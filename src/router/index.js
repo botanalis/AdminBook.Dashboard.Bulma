@@ -11,6 +11,8 @@ import dashboard from "@/view/home/dashboard";
 import book_list from "@/view/book/book_list";
 //顧客_列表
 import customer_list from "@/view/customer/customer_list";
+//訂單_列表
+import order_list from "@/view/order/order_list";
 
 
 Vue.use(VueRouter);
@@ -46,6 +48,16 @@ const router = new VueRouter({
                         {
                             //清單
                             path: "list", name: "customer_list", component: customer_list
+                        }
+                    ]
+                },
+                {
+                    //訂單
+                    path: "orders", component: action,
+                    children:[
+                        {
+                            //清單
+                            path: "list", name: "order_list", component: order_list
                         }
                     ]
                 }
